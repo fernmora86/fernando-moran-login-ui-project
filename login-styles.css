@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url('loginimg.jpg') no-repeat; /* Image by pngtree.com */
+    background-size: cover;
+    background-position: center;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container {
+    border: 5px solid red;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 3px solid red;
+    min-height: 100px;
+    min-width: 100px;
+    background: bisque;
+    border-radius: 13px;
+    box-shadow: 3px 3px 3px black;
+    height: 44vh;
+    min-width: 20vw;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    border: 3px solid aqua;
+    margin: 0cap;
+    font-family: "Audiowide", sans-serif;
+    font-size: 170%;
+}
+
+.input {
+    border: 3px solid purple;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    border: 3px solid green;
+}
+
+.remember {
+    border: 3px solid gray;
+    margin: -8%;
+}
+
+.forgot {
+    border: 3px solid black;
+}
+
+.register {
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
