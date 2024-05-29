@@ -4,66 +4,85 @@ html, body {
     background: url('loginimg.jpg') no-repeat; /* Image by pngtree.com */
     background-size: cover;
     background-position: center;
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+}
+
+a:hover {
+    color: rgb(30, 245, 245, 0.90);
+    text-decoration: underline;
+}
+
+a {
+    color: honeydew;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    background-color: rgba(75, 87, 135, 0.10);
 }
 
 .container {
-    border: 5px solid red;
     height: 100vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .card {
-    border: 3px solid red;
     min-height: 100px;
     min-width: 100px;
-    background: bisque;
-    border-radius: 13px;
+    background-color: rgba(75, 87, 135, 0.35);
+    border-radius: 15px;
+    padding: 30px;
     box-shadow: 3px 3px 3px black;
     height: 44vh;
     min-width: 20vw;
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    backdrop-filter: contrast(95%);
 }
 
 h3 {
-    border: 3px solid aqua;
     margin: 0cap;
     font-family: "Audiowide", sans-serif;
     font-size: 170%;
+    color: rgb(245, 59, 30);
 }
 
 .input {
-    border: 3px solid purple;
-
     display: flex;
     flex-direction: column;
 }
 
-.btn {
-    border: 3px solid green;
-}
-
 .remember {
-    border: 3px solid gray;
-    margin: -8%;
+    color: honeydew;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: -6%;
 }
 
-.forgot {
-    border: 3px solid black;
+.btn {
+    width: 45%;
+    height: 35px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+
+.btn:hover {
+    background-color: rgb(30, 245, 245);
+    color: black;
 }
 
 .register {
-    border: 3px solid white;
     display: flex;
     align-items: center;
     flex-direction: column;
