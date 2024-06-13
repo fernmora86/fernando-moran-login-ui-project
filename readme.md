@@ -3,5 +3,7 @@
 ### A simple Login User Interface.
 <br>
 <p align="center">
-  <img src="https://i.postimg.cc/NMmzVdK5/Screenshot-2024-05-29-at-4-56-06-PM.png" width="300" alt="drawing"/>
+
+[![Screenshot-2024-06-12-at-7-48-26-PM.png](https://i.postimg.cc/SsZjkSDL/Screenshot-2024-06-12-at-7-48-26-PM.png)](https://postimg.cc/0Mw9Csgr)
+
 </p>
